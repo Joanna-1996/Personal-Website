@@ -1,0 +1,48 @@
+/*
+My colors
+#4C5270
+#F652A0
+either: #36EEE0 or #BCECE0
+*/
+@font-face {
+  font-family: "EightBit Atari-Bigpl";
+  src: url("fonts/EightBit Atari-Bigpl.ttf") format("truetype");
+}
+.firstPage{
+  font-family: 'EightBit Atari-Bigpl', Arial, sans-serif;
+  color: #F652A0;
+  position: absolute;
+  top: 24%;
+  left: 7%;
+  text-align:left;
+}
+
+.mainText {
+  font-family: 'EightBit Atari-Bigpl', Arial, sans-serif;
+  color: #F652A0;
+  position: absolute;
+  top: 15%;
+  left: 7%;
+  text-align:left;
+}
+
+p.subtext{
+  font-family: 'EightBit Atari-Bigpl', Arial, sans-serif;
+  color: #F652A0;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  text-align:left;
+}
+
+body.indexBody{
+  background-color: #4C5270;
+}
+.section {
+  text-align:center;
+  font-size: 3em;
+}
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span{
+  background: #36EEE0 !important;
+}
