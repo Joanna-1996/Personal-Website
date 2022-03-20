@@ -10,7 +10,7 @@
 // 	});
 // });
 var myFullpage = new fullpage('#fullpage', {
-		anchors: ['firstPage', 'secondPage', '3rdPage'],
+		anchors: ['firstPage', 'secondPage', 'thirdPage','fourthPage','fifthPage','sixthPage','seventhPage'],
 		sectionsColor: ['#4C5270'],
 		navigation: true,
 		navigationPosition: 'right',
