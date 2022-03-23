@@ -3,36 +3,54 @@ My colors
 #4C5270
 #F652A0
 either: #36EEE0 or #BCECE0
+
+Different colors
+#FBE7C6
+#FFAEBC
+either: #A0E7E5 or #B4F8C8
 */
 @font-face {
   font-family: "EightBit Atari-Bigpl";
   src: url("fonts/EightBit Atari-Bigpl.ttf") format("truetype");
 }
+
+span{
+  animation: blinker linear infinite;
+}
+@@keyframes blinker {
+  50%{
+    opacity: 0;
+  }
+}
 .firstPage{
   font-family: 'EightBit Atari-Bigpl', Arial, sans-serif;
-  color: #F652A0;
-  position: absolute;
+  color: #FFAEBC;
+  padding: 2rem;
+  /* position: absolute;
   top: 24%;
   left: 7%;
-  text-align:left;
+  text-align:left; */
+  /* margin-bottom: 25%;
+  margin-left: -26%; */
 }
 
 .mainText {
   font-family: 'EightBit Atari-Bigpl', Arial, sans-serif;
-  color: #F652A0;
+  color: #FFAEBC;
   position: absolute;
   top: 15%;
   left: 7%;
   text-align:left;
 }
-
 p.subtext{
   font-family: 'EightBit Atari-Bigpl', Arial, sans-serif;
-  color: #F652A0;
-  position: absolute;
+  color: #FFAEBC;
+  /* position: absolute;
   top: 40%;
   left: 10%;
-  text-align:left;
+  text-align:left; */
+  /* margin-top: 40%;
+  margin-left: -26%; */
 }
 
 body.indexBody{
@@ -44,7 +62,7 @@ body.indexBody{
 }
 h3.Edusubtext{
   font-family: 'EightBit Atari-Bigpl', Arial, sans-serif;
-  color: #F652A0;
+  color: #FFAEBC;
   position: absolute;
   top: 30%;
   left: 10%;
@@ -60,7 +78,7 @@ p.Bachelorsub{
 }
 h3.EduCertsub{
   font-family: 'EightBit Atari-Bigpl', Arial, sans-serif;
-  color: #F652A0;
+  color: #FFAEBC;
   position: absolute;
   top: 55%;
   left: 10%;
@@ -68,7 +86,7 @@ h3.EduCertsub{
 }
 a.certsub1{
   font-family: Courier, Arial, sans-serif;
-  color: #36EEE0;
+  color: #A0E7E5;
   position: absolute;
   bottom: 30%;
   left: 10%;
@@ -76,7 +94,7 @@ a.certsub1{
 }
 a.certsub2{
   font-family: Courier, Arial, sans-serif;
-  color: #36EEE0;
+  color: #A0E7E5;
   position: absolute;
   bottom: 20%;
   left: 10%;
@@ -84,7 +102,7 @@ a.certsub2{
 }
 a.certsub3{
   font-family: Courier, Arial, sans-serif;
-  color: #36EEE0;
+  color: #A0E7E5;
   position: absolute;
   bottom: 10%;
   left: 10%;
@@ -92,5 +110,5 @@ a.certsub3{
 }
 
 #fp-nav ul li a span, .fp-slidesNav ul li a span{
-  background: #36EEE0 !important;
+  background: #A0E7E5 !important;
 }

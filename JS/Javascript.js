@@ -16,3 +16,20 @@ var myFullpage = new fullpage('#fullpage', {
 		navigationPosition: 'right',
 		navigationTooltips: ['ME', 'Whoami', 'Education','Skills','Experiances','Projects','News']
 });
+
+var typingArray = ["Joanna Assaeedi"];
+var textposition = 0;
+var speed = 170;
+
+typewriter = () => {
+	document.querySelector('#typing').innerHTML = typingArray[0].substring(0, textposition) + "<span>\u25ae</span>";
+
+	if (textposition++ != typingArray[0].length) {
+		setTimeout(typewriter,speed);
+	}
+	else{
+		document.querySelector('#typing').innerHTML = typingArray[0].substring(0, textposition) + "<span></span>";
+	}
+}
+
+window.addEventListener("load",typewriter);
