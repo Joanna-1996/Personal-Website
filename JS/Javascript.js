@@ -9,6 +9,13 @@
 // 		}
 // 	});
 // });
+window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2PRGZZ179B');
+
+
 var myFullpage = new fullpage('#fullpage', {
 		anchors: ['firstPage', 'secondPage', 'thirdPage','fourthPage','fifthPage','sixthPage','seventhPage'],
 		sectionsColor: ['#4C5270'],

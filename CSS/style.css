@@ -37,8 +37,8 @@ span{
 .mainText {
   font-family: 'EightBit Atari-Bigpl', Arial, sans-serif;
   color: #FFAEBC;
-    margin-bottom: 5%;
-    /* margin-left: -55%; */
+  margin-bottom: 5%;
+  /* margin-left: -55%; */
 }
 p.subtext{
   font-family: 'EightBit Atari-Bigpl', Arial, sans-serif;
@@ -51,8 +51,9 @@ p.subtext{
   margin-left: -26%; */
 }
 p.secondPagesubtext{
-  font-family: 'EightBit Atari-Bigpl', Arial, sans-serif;
+  font-family: Courier, Arial, sans-serif;
   color: #ffff;
+  margin: auto;
 }
 
 body.indexBody{
@@ -135,7 +136,32 @@ p.skillstext{
   margin: auto;
   margin-top: 21%;
 }
-
+.ProjectSub{
+  font-family: Courier, Arial, sans-serif;
+  color: #ffffff;
+  margin: auto;
+  margin-top: 5%;
+}
+.guidemelogo{
+  margin-top: 20%;
+  /* height: 55px; */
+  max-width: 203px;
+}
+.thissite{
+  font-family: Courier, Arial, sans-serif;
+  color: #A0E7E5;
+  margin-top: 15%;
+}
+a.link{
+  text-decoration: none;
+}
+button.contactme{
+  background-color: #A0E7E5;
+  color: #fff;
+  display: block;
+  margin: auto;
+  margin-top: 5%;
+}
 #fp-nav ul li a span, .fp-slidesNav ul li a span{
   background: #A0E7E5 !important;
 }
