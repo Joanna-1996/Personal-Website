@@ -37,10 +37,8 @@ span{
 .mainText {
   font-family: 'EightBit Atari-Bigpl', Arial, sans-serif;
   color: #FFAEBC;
-  position: absolute;
-  top: 15%;
-  left: 7%;
-  text-align:left;
+  margin-bottom: 25%;
+  margin-left: -55%;
 }
 p.subtext{
   font-family: 'EightBit Atari-Bigpl', Arial, sans-serif;
@@ -51,6 +49,10 @@ p.subtext{
   text-align:left; */
   /* margin-top: 40%;
   margin-left: -26%; */
+}
+p.secondPagesubtext{
+  font-family: 'EightBit Atari-Bigpl', Arial, sans-serif;
+  color: #ffff;
 }
 
 body.indexBody{
@@ -63,50 +65,50 @@ body.indexBody{
 h3.Edusubtext{
   font-family: 'EightBit Atari-Bigpl', Arial, sans-serif;
   color: #FFAEBC;
-  position: absolute;
+  /* position: absolute;
   top: 30%;
   left: 10%;
-  text-align:left;
+  text-align:left; */
 }
 p.Bachelorsub{
   font-family: Courier, Arial, sans-serif;
   color: #ffffff;
-  position: absolute;
+  /* position: absolute;
   top: 45%;
   left: 10%;
-  text-align:left;
+  text-align:left; */
 }
 h3.EduCertsub{
   font-family: 'EightBit Atari-Bigpl', Arial, sans-serif;
   color: #FFAEBC;
-  position: absolute;
+  /* position: absolute;
   top: 55%;
   left: 10%;
-  text-align:left;
+  text-align:left; */
 }
 a.certsub1{
   font-family: Courier, Arial, sans-serif;
   color: #A0E7E5;
-  position: absolute;
+  /* position: absolute;
   bottom: 30%;
   left: 10%;
-  text-align:left;
+  text-align:left; */
 }
 a.certsub2{
   font-family: Courier, Arial, sans-serif;
   color: #A0E7E5;
-  position: absolute;
+  /* position: absolute;
   bottom: 20%;
   left: 10%;
-  text-align:left;
+  text-align:left; */
 }
 a.certsub3{
   font-family: Courier, Arial, sans-serif;
   color: #A0E7E5;
-  position: absolute;
+  /* position: absolute;
   bottom: 10%;
   left: 10%;
-  text-align:left;
+  text-align:left; */
 }
 
 #fp-nav ul li a span, .fp-slidesNav ul li a span{
