@@ -110,6 +110,31 @@ a.certsub3{
   left: 10%;
   text-align:left; */
 }
+p.skillstext{
+  font-family: Courier, Arial, sans-serif;
+  color: #FFAEBC;
+  margin: auto;
+}
+.rectangleResearch {
+  height: 150px;
+  width: 100px;
+  background-color: #ffffff;
+  margin: auto;
+}
+.rectangleProgramming{
+  height: 100px;
+  width: 100px;
+  background-color: #ffffff;
+  margin: auto;
+  margin-top: 11%;
+}
+.rectangleDesign{
+  height: 50px;
+  width: 100px;
+  background-color: #ffffff;
+  margin: auto;
+  margin-top: 21%;
+}
 
 #fp-nav ul li a span, .fp-slidesNav ul li a span{
   background: #A0E7E5 !important;
