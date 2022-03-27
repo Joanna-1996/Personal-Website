@@ -37,8 +37,8 @@ span{
 .mainText {
   font-family: 'EightBit Atari-Bigpl', Arial, sans-serif;
   color: #FFAEBC;
-  margin-bottom: 25%;
-  margin-left: -55%;
+    margin-bottom: 5%;
+    /* margin-left: -55%; */
 }
 p.subtext{
   font-family: 'EightBit Atari-Bigpl', Arial, sans-serif;
